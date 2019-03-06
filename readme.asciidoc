@@ -53,12 +53,9 @@ image::https://betanews.com/wp-content/uploads/2016/04/penguingun-600x600.jpg[as
 
 image:https://betanews.com/wp-content/uploads/2016/04/penguingun-600x600.jpg[asker, title="Play"] butonu inline bir görseldir.
 
-image:https://betanews.com/wp-content/uploads/2016/04/penguingun-600x600.jpg[asker role="right"] Konum belirlemeli inline
-
-===== Embedded görsel ve block video þu an için eksik
+image:media/example.jpg[asker role="right"] Konum belirlemeli inline
 
 video::o8NPllzkFhE[youtube, 500, 300]
-
 
 video::media/example.mp4[width=500, height= 300]
 
