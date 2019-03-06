@@ -1,3 +1,9 @@
+<<Yazılım tasarım kalıpları>>
+<<1. Open Source Nature>>
+<<2. Secure>>
+<<3. Can revive older computers>>
+<<Linkler>>
+
 = Yazılım tasarım kalıpları
 
 == Linux <3
