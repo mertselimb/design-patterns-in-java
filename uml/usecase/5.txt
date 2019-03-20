@@ -1,0 +1,6 @@
+:Adversitor: ---> (Give ads)
+Adversitor ---> (Uses admin panel)
+Adversitor --> (Can make search,comment and likes) 
+Adversitor --> (Demand safer videos for ads) : Or quit
+note right of Adversitor : Money goes to youtube and youtubers
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+
+
+:User: --> (Watch videos) 
+User --> (Can make search,comment and likes) 
+User --> Youtuber : (Can become youtuber)
+note right of User : Watch videos and ads
+:Youtuber: ---> (Upload videos)
+Youtuber ---> (Get ad revenue)
+@enduml

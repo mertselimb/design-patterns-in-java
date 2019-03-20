@@ -1,0 +1,15 @@
+@startuml
+
+
+:User: --> (Watch videos) 
+User --> (Can make search,comment and likes) 
+note right of User : Watch videos and ads
+:Youtuber: ---> (Upload videos)
+Youtuber ---> (Uses admin panel)
+Youtuber --> (Can make search,comment and likes)  
+note right of Youtuber : Gets a part of the add revenue
+:Adversitor: ---> (Give ads)
+Adversitor ---> (Uses admin panel)
+Adversitor --> (Can make search,comment and likes) 
+note right of Adversitor : Money goes to youtube and youtubers
+@enduml
