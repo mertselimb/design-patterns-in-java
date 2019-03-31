@@ -1,18 +1,20 @@
 @startuml
-
-
-:User: --> (Watch videos) 
-User --> (Can make search,comment and likes) 
-User --> Youtuber : (Can become youtuber)
-note right of User : Watch videos and ads
-:Youtuber: ---> (Upload videos)
-Youtuber ---> (Uses admin panel)
-Youtuber --> (Can make search,comment and likes)  
-Youtuber --> User : (Can get banned)  
-note right of Youtuber : Gets a part of the add revenue
-:Adversitor: ---> (Give ads)
-Adversitor ---> (Uses admin panel)
-Adversitor --> (Can make search,comment and likes) 
-Adversitor --> (Demand safer videos for ads) : Or quit
-note right of Adversitor : Money goes to youtube and youtubers
+left to right direction
+skinparam packageStyle rectangle
+actor Müşteri
+actor Satıcı
+rectangle kitapçı.com {
+  Müşteri -- (Kitap al)
+  (Kitap al) .> (Stok doğrula) : include
+  Müşteri -- (Kitap ara)
+  Müşteri -- (Kitap stok öğren)
+  (Kitap stok öğren) .> (Stok doğrula) : include
+  Müşteri -- (Giriş yap)
+  (Giriş yap) .> (Şifre doğrula) : include
+  (Giriş yap) .> (Hata ekranı göster) : extends
+  (Kitap al) -- Satıcı
+  (Kitap ara) -- Satıcı
+  (Kitap stok öğren) -- Satıcı
+  (Giriş yap) -- Satıcı
+}
 @enduml

@@ -1,10 +1,23 @@
 @startuml
-
-
-:User: --> (Watch videos) 
-User --> (Can make search,comment and likes) 
-User --> Youtuber : (Can become youtuber)
-note right of User : Watch videos and ads
-:Youtuber: ---> (Upload videos)
-Youtuber ---> (Get ad revenue)
+left to right direction
+skinparam packageStyle rectangle
+actor Müşteri
+actor Satıcı
+rectangle kitapçı.com {
+  Müşteri -- (Kitap al)
+  (Kitap al) .> (Stok doğrula) : include
+  (Kitap al) .> (Ödeme doğrula) : include
+  (Kitap al) .> (Hesap kartıyla) : extends
+  (Kitap al) .> (Kredi kartıyla) : extends
+  Müşteri -- (Kitap ara)
+  Müşteri -- (Kitap stok öğren)
+  (Kitap stok öğren) .> (Stok doğrula) : include
+  Müşteri -- (Giriş yap)
+  (Giriş yap) .> (Şifre doğrula) : include
+  (Giriş yap) .> (Hata ekranı göster) : extends
+  (Kitap al) -- Satıcı
+  (Kitap ara) -- Satıcı
+  (Kitap stok öğren) -- Satıcı
+  (Giriş yap) -- Satıcı
+}
 @enduml
