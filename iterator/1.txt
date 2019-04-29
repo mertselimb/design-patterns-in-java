@@ -1,0 +1,81 @@
+@startuml
+package kitapci.com <<Rectangle>> {
+  interface kitap_basıcı {
+  +Int ID
+  +String isim
+  +Date cikis_tarihi
+  +Int basım
+  +Int sayfa_sayisi
+  +String tanitim
+  +yeniKitap(Int,String,Date,Int,Int,String)
+}
+
+kitap_basıcı <|- ekitap_basıcı
+kitap_basıcı <|- ozel_basim_kitap_basıcı
+kitap_basıcı <|- mini_kitap_basıcı
+
+ekitap_basıcı  <|- ekitap
+ozel_basim_kitap_basıcı <|- ozel_basim_kitap
+mini_kitap_basıcı <|- mini_kitap
+
+ekitap_basıcı  ..|> ekitap1
+ozel_basim_kitap_basıcı ..|>  ozel_basim_kitap1
+mini_kitap_basıcı ..|> mini_kitap1
+
+class ekitap_basıcı {
+  +Int ulasim_ID
+  +yeniEKitap()
+}
+
+class ozel_basim_kitap_basıcı {
+  -Int basim_sayisi
++yeni_ozel_basim_kitap()
+}
+
+class mini_kitap_basıcı {
+  -Int ozel_sayfa_sayisi
++yeni_mini_kitap()
+}
+
+interface ekitap{
+}
+
+interface ozel_basim_kitap{
+}
+
+interface mini_kitap{
+}
+
+interface iterator{
++CurrentItem() object
++First() object
++isDone() bool
++Last() object
+}
+
+class stokIterator{
+}
+
+iterator -|> stokIterator
+stokIterator --* stok
+
+stok --* kitap
+class stok {
+  -Int ID
+  +Int stok
+  +Date son_guncelleme
+  +stokGuncelle(Int)
+  +yeniStok(Int,Int,Date)
+}
+
+class kullanici {
+  -Int ID
+  +String kullanici_adi
+  -String sifre_hash
+  +String email
+  +yeniKullanici(String,String,String)
+  +sifreGuncelle(String)
+  +emailGuncelle(String)
+}
+}
+@enduml

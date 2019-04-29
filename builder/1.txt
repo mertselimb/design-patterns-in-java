@@ -1,0 +1,61 @@
+@startuml
+package kitapci.com <<Rectangle>> {
+  class kitap {
+  +Int ID
+  +String isim
+  +Date cikis_tarihi
+  +Int basım
+  +Int sayfa_sayisi
+  +String tanitim
+  +yeniKitap(Int,String,Date,Int,Int,String)
+}
+
+kitap <|- ekitap_basıcı
+kitap <|- ozel_basim_kitap_basıcı
+kitap <|- mini_kitap_basıcı
+
+ekitap_basıcı ..|> ekitap
+ozel_basim_kitap_basıcı ..|> ozel_basim_kitap
+mini_kitap_basıcı ..|> mini_kitap
+class ekitap_basıcı {
+  +Int ulasim_ID
+}
+
+class ozel_basim_kitap_basıcı {
+  -Int basim_sayisi
+}
+
+class mini_kitap_basıcı {
+  -Int ozel_sayfa_sayisi
+}
+
+class ekitap{
+}
+
+class ozel_basim_kitap{
+}
+
+class mini_kitap{
+}
+
+
+stok --* kitap
+class stok {
+  -Int ID
+  +Int stok
+  +Date son_guncelleme
+  +stokGuncelle(Int)
+  +yeniStok(Int,Int,Date)
+}
+
+class kullanici {
+  -Int ID
+  +String kullanici_adi
+  -String sifre_hash
+  +String email
+  +yeniKullanici(String,String,String)
+  +sifreGuncelle(String)
+  +emailGuncelle(String)
+}
+}
+@enduml
