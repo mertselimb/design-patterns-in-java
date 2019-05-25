@@ -46,21 +46,20 @@ interface ozel_basim_kitap{
 interface mini_kitap{
 }
 
-interface iterator{
-+CurrentItem() object
-+First() object
-+isDone() bool
-+Last() object
+interface memento{
++eskihalegetir()
++dondur()
 }
 
-class stokIterator{
+class bakıcı{
++ekle()
++sil()
++al()
 }
-
-iterator -|> stokIterator
-stokIterator --* stok
+memento --* bakıcı
 
 stok --* kitap
-class stok {
+class stok extends memento{
   -Int ID
   +Int stok
   +Date son_guncelleme
