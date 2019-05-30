@@ -1,14 +1,16 @@
-export class mini_kitap_basici {
-    yeniKitap(isim, cikisTarihi, basim, sayfaSayisi, tanitim, ozel_sayfa_sayisi) {
-        return function(){
+import adapter from "adapter.js";
+
+class eKitap extends adapter {
+    constructor(ulasimID){
+        this.ulasimID = ulasimID;
         this.ID = ID;
         this.isim = isim;
         this.cikisTarihi = cikisTarihi;
         this.basim = basim;
         this.sayfaSayisi = sayfaSayisi;
         this.tanitim = tanitim;
-    	this.ozel_sayfa_sayisi = ozel_sayfa_sayisi };
+        this.bilgileriGetirOZEL = null;
     }
+  }
 
-
-}
+export default eKitap;
