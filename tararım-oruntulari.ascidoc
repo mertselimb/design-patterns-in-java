@@ -1,0 +1,17 @@
+# Her şey main classlarda test edilmiştir.
+### Singleton
+Stoklar nesnesini singleton yapıp kullanıyoruz. Böylece birden fazla stok oluşamıyor
+### Factory
+KitapFactory nesnesini kullanıyoruz. Sebebi ise birden fazla nesne tipini kolay oluşturmak için.
+### Prototype
+Nesne üretim masraflarından kaçmak için deepclone sistemi kuruyoruz. Bunu javanın kendi Clonable classıyla yapıyoruz.
+### Object Pool
+Kitaplik nesnesinde kitap nesneleri kullanıma hazır bir şekilde oluşturulup tutulamaktadır.
+### Builder
+Kitap içinde bir builder classı tanımlanarak set işlemlerini oradan yapıyoruz ve değişkenlere final ekliyoruz. Böylece daha iyi bir constructer elde ediyoruz.
+### Singleton
+### Singleton
+### Singleton
+### Singleton
+### Singleton
+### Singleton

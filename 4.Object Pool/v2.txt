@@ -1,0 +1,79 @@
+@startuml
+package kitapci.com <<Rectangle>> {
+  class kitap implements Cloneable{
+  -Int ID
+  -String isim
+  -Date cikis_tarihi
+  -Int basım
+  -Int sayfa_sayisi
+  -String tanitim
+  + getters()
+  + setters()
+  + clone()
+}
+
+
+class ekitap extends kitap{
+  -Int ulasim_ID
+  + getters()
+  + setters()
+  + clone()
+}
+
+
+class mini_kitap extends kitap{
+  -Int ozel_sayfa_sayisi
+  + getters()
+  + setters()
+  + clone()
+}
+
+interface Cloneable{
+  + clone()
+}
+
+class kitapFactory{
+  + kitapBas()
+}
+
+class kitaplik{
+  - List<Kitap> raf
+  + getRaf()
+  + rafiDoldur(int havuzBoyutu)
+}
+
+class stoklar{
+    - static Stoklar ornek
+    - List<Stok> liste
+    + getters()
+    + setters()
+    + ekle(Stok s)
+    + ornekAL()
+}
+
+class stok {
+  -Int ID
+  -Int stok
+  -Date son_guncelleme
+  - Kitap kitap;
+  + getters()
+  + setters()
+}
+
+class kullanici {
+  -Int ID
+  -String kullanici_adi
+  -String sifre_hash
+  -String email
+  + getters()
+  + setters()
+}
+
+kitapFactory <.. kitap
+kitapFactory <.. ekitap
+kitapFactory <.. mini_kitap
+stok *-- kitap
+kitaplik o-- kitap
+stoklar *-- stok
+}
+@enduml

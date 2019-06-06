@@ -1,2 +1,0 @@
-stok factory
-kullanici factory
