@@ -1,19 +1,24 @@
 package com.mertselimb.abstractFactory;
 
+import com.mertselimb.abstractFactory.models.AbstractFactory;
 import com.mertselimb.abstractFactory.models.Kitap;
+import com.mertselimb.abstractFactory.models.KitapFactory;
+import com.mertselimb.abstractFactory.resources.FactoryType;
 import com.mertselimb.abstractFactory.resources.KitapType;
 
 import java.time.LocalDate;
-import java.util.Random;
 
 public class Main {
 
-    public static void main(String[] args) throws CloneNotSupportedException {
-        Kitap.Builder builder =  new Kitap.Builder();
-        Random rand = new Random();
-        builder.ID(rand.nextInt(1000)).isim("comolokko").cikis_tarihi(LocalDate.now()).basim(1000).basim_sayisi(1500).tanitim("comolokko?").tip(KitapType.KITAP);
+    public static void main(String[] args) {
+        AbstractFactory basimEvi = AbstractFactory.fabrikaSec(FactoryType.KITAP);
 
-        Kitap kitap = builder.build();
-        System.out.println(kitap.getBasim());
+        Kitap a = basimEvi.kitapUret(1, "comolokko",LocalDate.now(),1000,1500,"comolokko?", KitapType.KITAP);
+        Kitap b = basimEvi.kitapUret(2, "comolokko",LocalDate.now(),1000,1500,"comolokko?", KitapType.EKITAP);
+        Kitap c = basimEvi.kitapUret(3, "comolokko",LocalDate.now(),1000,1500,"comolokko?", KitapType.MINIKITAP);
+
+        System.out.println(a.getTip());
+        System.out.println(b.getTip());
+        System.out.println(c.getTip());
     }
 }

@@ -1,4 +1,5 @@
 # Her şey main classlarda test edilmiştir.
+## V1 eski yaptığımdır. V2ler yenidir ve içinde desenin ismi olan klasörde kodlar bulunmaktadır.
 ### Singleton
 Stoklar nesnesini singleton yapıp kullanıyoruz. Böylece birden fazla stok oluşamıyor
 ### Factory
@@ -9,9 +10,15 @@ Nesne üretim masraflarından kaçmak için deepclone sistemi kuruyoruz. Bunu ja
 Kitaplik nesnesinde kitap nesneleri kullanıma hazır bir şekilde oluşturulup tutulamaktadır.
 ### Builder
 Kitap içinde bir builder classı tanımlanarak set işlemlerini oradan yapıyoruz ve değişkenlere final ekliyoruz. Böylece daha iyi bir constructer elde ediyoruz.
-### Singleton
-### Singleton
-### Singleton
-### Singleton
-### Singleton
-### Singleton
+### Abstract Factory
+AbstractFactoryden KitapFactory üretip onla da Kitap classını üretiriz.
+### Iterator
+Stoklar classını Iterabledan extend ettiğimizde javanın foreachiyle birlikte çalıştrabiliriz. Bunu kullanarak yapılmıştır.
+### Observer
+Observer olarak kitapObserver observable olarak kitap kullanılmıştır.
+### Memento
+Kitap Statelerini KitapMemento olarak kaydedip geri yükleyebiliyoruz. Stateler bakicida tutulabiliyor. Her şey bakici üzerinden çağırılıyor.
+### Mediator
+Komutları çağırarak bütün Kitap nesnelerinin tanit fonksiyonunu çağırırız.
+### Decorator
+Kitap nesnesine yeni özellikler ekleriz.

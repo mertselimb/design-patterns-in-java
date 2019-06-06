@@ -1,0 +1,85 @@
+@startuml
+package kitapci.com <<Rectangle>> {
+  class kitap extends Denek{
+  -Int ID
+  -String isim
+  -Date cikis_tarihi
+  -Int basım
+  -Int sayfa_sayisi
+  -String tanitim
+  + getters()
+  + setters()
+  + setStater()
+  + getState()
+}
+
+
+class ekitap extends kitap{
+  -Int ulasim_ID
+  + getters()
+  + setters()
+}
+
+
+class mini_kitap extends kitap{
+  -Int ozel_sayfa_sayisi
+  + getters()
+  + setters()
+}
+
+class Iterable{
+  + hasNext()
+  + next()
+  + remove()
+}
+
+class stoklar extends Iterable{
+    - static Stoklar ornek
+    - List<Stok> liste
+    + getters()
+    + setters()
+    + ekle(Stok s)
+    + ornekAL()
+}
+
+class stok {
+  -Int ID
+  -Int stok
+  -Date son_guncelleme
+  - Kitap kitap;
+  + getters()
+  + setters()
+}
+
+class kullanici {
+  -Int ID
+  -String kullanici_adi
+  -String sifre_hash
+  -String email
+  + getters()
+  + setters()
+}
+
+abstract class Observer{
+    - Denek denek;
+    + update();
+}
+
+class KitapObserver extends Observer{
+    + KitapObserver(Denek denek)
+    + addMessage()
+    - update()
+}
+
+abstract class Denek{
+    + setState(String state)
+    + getState();  
+    + attach(Observer observer)
+    + detach(Observer observer)
+    + ObserverlariUyar()
+}
+
+stok *-- kitap
+stoklar *-- stok
+}
+@enduml

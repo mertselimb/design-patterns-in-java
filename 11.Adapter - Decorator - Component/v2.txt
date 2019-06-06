@@ -1,0 +1,58 @@
+@startuml
+package kitapci.com <<Rectangle>> {
+  class kitap{
+  -Int ID
+  -String isim
+  -Date cikis_tarihi
+  -Int basım
+  -Int sayfa_sayisi
+  -String tanitim
+  + getters()
+  + setters()
+  + tanit()
+}
+
+
+class ekitapDecotator{
+  -Int ulasim_ID
+  + getters()
+  + setters()
+}
+
+
+class miniKitapDecorator{
+  -Int ozel_sayfa_sayisi
+  + getters()
+  + setters()
+}
+
+
+class stoklar{
+    - static Stoklar ornek
+    - List<Stok> liste
+    + getters()
+    + setters()
+}
+
+class stok {
+  -Int ID
+  -Int stok
+  -Date son_guncelleme
+  - Kitap kitap;
+  + getters()
+  + setters()
+}
+
+class kullanici {
+  -Int ID
+  -String kullanici_adi
+  -String sifre_hash
+  -String email
+  + getters()
+  + setters()
+}
+
+stok *-- kitap
+stoklar *-- stok
+}
+@enduml

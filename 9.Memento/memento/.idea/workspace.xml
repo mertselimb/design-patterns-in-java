@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/Kitap.java" line="26" mnemonic="9" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="902ed7c3-2ac9-4d18-900b-f5d9d00d97e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/KitapFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/resources/FactoryType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/EKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/Kitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/Kullanici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/MiniKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/Stok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../7.Iterator/Iterator/src/com/mertselimb/iterator/models/Stoklar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Denek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/EKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Kitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/KitapObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Kullanici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/MiniKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Stok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8.Observer/Observer/src/com/mertselimb/observer/models/Stoklar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/Bakici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/EKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/Kitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/KitapMemento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/Kullanici.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/MiniKitap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/Stok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/mertselimb/memento/models/Stoklar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.factory/2 v2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.factory/2 v2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2.factory/2 v2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../2.factory/2 v2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/out/production/abstractFactory/com/mertselimb/abstractFactory/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/out/production/abstractFactory/com/mertselimb/abstractFactory/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/out/production/abstractFactory/com/mertselimb/abstractFactory/models/Kitap$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/out/production/abstractFactory/com/mertselimb/abstractFactory/models/Kitap.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/out/production/abstractFactory/com/mertselimb/abstractFactory/models/Kitap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/EKitap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/EKitap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Kitap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Kitap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Kullanici.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Kullanici.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/MiniKitap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/MiniKitap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Stok.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Stok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Stoklar.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/models/Stoklar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/resources/KitapType.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../6.Abstract Factory/abstractFactory/src/com/mertselimb/abstractFactory/resources/KitapType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/EKitap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/Kitap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/Kullanici.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/MiniKitap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/Stok.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/models/Stoklar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6.Abstract Factory/resources/KitapType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/ekitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/kitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/kullanici.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/miniKitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/ozelBasimKitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/stok.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../7.Iterator/stoklar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/kitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/kullanici.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/observer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8.Observer/stok.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bakıcı.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ekitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kullanici.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miniKitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ozelBasimKitap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stok.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../tararım-oruntulari.ascidoc" beforeDir="false" afterPath="$PROJECT_DIR$/../../tararım-oruntulari.ascidoc" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/Bakici.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/mertselimb/memento/models/kitapMemento.java" />
+        <option value="$PROJECT_DIR$/src/com/mertselimb/memento/models/Kitap.java" />
+        <option value="$PROJECT_DIR$/src/com/mertselimb/memento/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/mertselimb/memento/models/Bakici.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="memento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="memento" type="b2602c69:ProjectViewProjectNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="memento" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/mertselimb/memento" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Save\java\design-patterns-in-java\9.Memento\memento\src\com\mertselimb\memento" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.mertselimb.memento.Main" />
+      <module name="memento" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902ed7c3-2ac9-4d18-900b-f5d9d00d97e7" name="Default Changelist" comment="" />
+      <created>1559851299258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559851299258</updated>
+      <workItem from="1559851301377" duration="1015000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1015000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/Stok.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/Kitap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/KitapMemento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mertselimb/memento/models/Bakici.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

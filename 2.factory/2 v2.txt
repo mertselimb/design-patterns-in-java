@@ -56,9 +56,9 @@ class kullanici {
   + setters()
 }
 
-kitapFactory <.. kitap
-kitapFactory <.. ekitap
-kitapFactory <.. mini_kitap
+kitapFactory ..> kitap
+kitapFactory ..> ekitap
+kitapFactory ..> mini_kitap
 stok *-- kitap
 stoklar *-- stok
 }
