@@ -1,7 +1,5 @@
 # Her şey main classlarda test edilmiştir.
 
-## V1 eski yaptığımdır. V2ler yenidir ve içinde desenin ismi olan klasörde kodlar bulunmaktadır.
-
 ### Singleton
 Stoklar nesnesini singleton yapıp kullanıyoruz. Böylece birden fazla stok oluşamıyor
 
